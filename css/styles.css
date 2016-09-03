@@ -1,4 +1,25 @@
+.container {
+  background-color: pink;
+  width: 600px;
+  height: 600px;
+  overflow: hidden;
+}
+
 h1{
   font-size: 30px;
-  color: red;
+  color: blue;
+}
+
+.bb {
+  position: relative;
+  animation: speedin 2s infinite;
+}
+
+@keyframes speedin {
+  0% {
+    left: 600px;
+  }
+  100% {
+    left: 0px;
+  }
 }
