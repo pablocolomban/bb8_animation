@@ -5,12 +5,16 @@
   overflow: hidden;
 }
 
-h1{
-  font-size: 30px;
-  color: blue;
+.bb8 {
+  position: absolute;
+  z-index: 100;
 }
 
-.bb {
+.speedlines {
+  position: relative;
+  left: 140px;
+}
+/*.bb {
   position: relative;
   animation: speedin 2s infinite;
 }
@@ -22,4 +26,4 @@ h1{
   100% {
     left: 0px;
   }
-}
+}*/
