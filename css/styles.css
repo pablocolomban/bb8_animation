@@ -1,4 +1,5 @@
 .container {
+  position: absolute;
   background-color: pink;
   width: 600px;
   height: 600px;
@@ -10,13 +11,22 @@
   z-index: 100;
 }
 
+.head {
+  position: relative;;
+  left: 85px;
+}
+
+.body {
+  position: absolute;;
+  top: 100px;
+}
+
 .speedlines {
   position: relative;
   left: 140px;
 }
-/*.bb {
-  position: relative;
-  animation: speedin 2s infinite;
+.bb8 {
+  animation: speedin 4s infinite;
 }
 
 @keyframes speedin {
@@ -26,4 +36,4 @@
   100% {
     left: 0px;
   }
-}*/
+}
