@@ -33,14 +33,17 @@ $color-background: pink;
 .body {
   position: absolute;;
   top: 100px;
+  animation: spin 2s infinite;
 }
 
 .speedlines {
   position: relative;
-  left: 140px;
+  left: 400px;
+  animation: speedlines 2s infinite;
 }
+
 .bb8 {
-  animation: speedin 4s infinite;
+  animation: speedin 2s infinite;
 }
 
 @keyframes speedin {
@@ -50,4 +53,25 @@ $color-background: pink;
   100% {
     left: 0px;
   }
+}
+@keyframes speedlines {
+  0% {
+    left: 750px;
+  }
+  100% {
+    left: 120px;
+  }
+}
+
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(-360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(-360deg); }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(-360deg);}
 }
