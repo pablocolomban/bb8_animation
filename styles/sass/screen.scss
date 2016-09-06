@@ -1,0 +1,53 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+
+$color-orange: #F06927;
+$color-black: #1F2023;
+$color-gray: #40424D;
+$color-background: pink;
+
+
+.container {
+  position: absolute;
+  background-color: $color-background;
+  width: 600px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.bb8 {
+  position: absolute;
+  z-index: 100;
+}
+
+.head {
+  position: relative;;
+  left: 85px;
+}
+
+.body {
+  position: absolute;;
+  top: 100px;
+}
+
+.speedlines {
+  position: relative;
+  left: 140px;
+}
+.bb8 {
+  animation: speedin 4s infinite;
+}
+
+@keyframes speedin {
+  0% {
+    left: 600px;
+  }
+  100% {
+    left: 0px;
+  }
+}
