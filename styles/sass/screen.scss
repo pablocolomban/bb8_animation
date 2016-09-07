@@ -23,7 +23,7 @@ $color-background: pink;
 .art {
   position: relative;
   z-index: 100;
-  animation: speedin 2s 1, speedout 2s 1;
+  animation: speedin 2s 1;
 }
 .bb8 {
   position: relative;
@@ -63,12 +63,4 @@ $color-background: pink;
 @keyframes spin {
     from {transform:rotate(0deg);}
     to {transform:rotate(-360deg);}
-}
-@keyframes speedout {
-  0% {
-    left: 0px;
-  }
-  100% {
-    left: -900px;
-  }
 }
