@@ -67,42 +67,41 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 15, ../sass/screen.scss */
+/* line 14, ../sass/screen.scss */
 .container {
   position: absolute;
-  background-color: pink;
   width: 600px;
   height: 600px;
   overflow: hidden;
 }
 
-/* line 23, ../sass/screen.scss */
+/* line 21, ../sass/screen.scss */
 .art {
   position: relative;
   z-index: 100;
   animation: speedin 2s 1;
 }
 
-/* line 28, ../sass/screen.scss */
+/* line 26, ../sass/screen.scss */
 .bb8 {
   position: relative;
   z-index: 100;
 }
 
-/* line 32, ../sass/screen.scss */
+/* line 30, ../sass/screen.scss */
 .head {
   position: absolute;
   left: 85px;
 }
 
-/* line 36, ../sass/screen.scss */
+/* line 34, ../sass/screen.scss */
 .body {
   position: absolute;
   top: 100px;
   animation: spin 2s 1;
 }
 
-/* line 41, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
 .speedlines {
   position: absolute;
   left: 125px;
